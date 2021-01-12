@@ -22,7 +22,7 @@
     <!-- Drip icon font-->
     <link rel="stylesheet" href="<?php echo asset('public/vendor/dripicons/webfont.css') ?>" type="text/css">
     <!-- Google fonts - Roboto -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,500,700">
+    <link rel="stylesheet" href="{{ asset('public/css/fontsGooleNunito.css') }}">
     <!-- jQuery Circle-->
     <link rel="stylesheet" href="<?php echo asset('public/css/grasp_mobile_progress_circle-1.0.0.min.css') ?>" type="text/css">
     <!-- Custom Scrollbar-->
@@ -85,8 +85,8 @@
     <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script> 
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="<?php echo asset('public/css/custom-'.$general_setting->theme) ?>" type="text/css" id="custom-style">
+    <link rel="stylesheet" href="{{ asset('public/css/fontsgoogleapisdroidarabicnaskh.css') }}">
     <style>
-      @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
       .droid-arabic-naskh{font-family: 'Droid Arabic Naskh', serif;}
       </style>
   </head>
